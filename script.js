@@ -4,6 +4,7 @@ function fillContainer(size) {
   let container = document.querySelector("#container");
   let boxes = container.querySelectorAll("div");
   boxes.forEach((div) => div.remove());
+  container.style.display = "inline-grid";
   container.style.gridTemplateColumns = `repeat(${size} , 1fr)`;
   container.style.gridTemplateRows = `repeat(${size} , 1fr)`;
   
