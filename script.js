@@ -24,7 +24,7 @@ function hoverEffect() {
 }
 
 function changeColor(choice) {
-  color = choice
+  color = choice;
 }
 
 function clearBoard() {
