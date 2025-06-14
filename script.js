@@ -8,7 +8,7 @@ function fillContainer(size) {
   container.style.gridTemplateColumns = `repeat(${size} , 1fr)`;
   container.style.gridTemplateRows = `repeat(${size} , 1fr)`;
   
-  let amount = size*size
+  let amount = size*size;
   for (let i = 0; i < amount; i++) {
     let box = document.createElement("div");
     box.classList.add("box");
